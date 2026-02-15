@@ -1,0 +1,8 @@
+first start with making  working directory (folder), after we have somthing called staging area
+its a place were we are to commit
+---------------------------------------------------------------------------------
+after approving, to put it there is a hidden file named local repository which is
+like a project and its as if I created a checkpoint
+----------------------------------------------------------------------------------
+git config --global user.name: disply the name / git config --global user.email: display the email / git init: Initializes git repository / ls: display files within the folder /
+ls -force: display all the files that are hidden or not / git status: tells the current position in the repsitory data / git .: selects all the files to commit

@@ -8,7 +8,24 @@
 </head>
 <body>
     <h1>git and github, modified from remote</h1>
+    <ul id = "list-for-data">
 
+    </ul>
     <script src="script.js"></script>
+    <script>
+        const data = [
+            { id: 1, name: alice },
+            { id: 2, name: ali }
+            
+        ]
+    document.addEventListener("Domcontentloaded", () => {
+        const list = document.getElementById("list-for-data");
+        data.forEach(item => {
+            const listItem = document.createElement("li");
+            listItem.textContent = `ID: ${item.id}, Name: ${item.name}`;
+            list.appendChild(listItem);
+        })
+    })
+    </script>
 </body>
 </html>

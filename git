@@ -7,4 +7,5 @@ like a project and its as if I created a checkpoint
 git config --global user.name: disply the name / git config --global user.email: display the email / git init: Initializes git repository / ls: display files within the folder /
 ls -force: display all the files that are hidden or not / git status: tells the current position in the repsitory data / git .: selects all the files to commit / git commit -m "": It creates a snapshot of the staged files and saves it in Git history / git log:
 It shows the history of commits in the repository. / git add: add the file to commit
-git restore --staged file name: to unstage the file
+git restore --staged file name: to unstage the file / git commit -a -m "": like the normal commit but it adds every file / git checkout id: used to switch branches or restore files / git log --all: gives all logs wether its hidden or not / git pull --rebase /
+git branch origin/main / git pull / 
